@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7154739043679797200
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: c5c1e7a761cbb0d43b2d1847e07ab4fe,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c5c1e7a761cbb0d43b2d1847e07ab4fe,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 85.10936
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c5c1e7a761cbb0d43b2d1847e07ab4fe,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c5c1e7a761cbb0d43b2d1847e07ab4fe,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -78.80791
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c5c1e7a761cbb0d43b2d1847e07ab4fe,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c5c1e7a761cbb0d43b2d1847e07ab4fe,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c5c1e7a761cbb0d43b2d1847e07ab4fe,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c5c1e7a761cbb0d43b2d1847e07ab4fe,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c5c1e7a761cbb0d43b2d1847e07ab4fe,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c5c1e7a761cbb0d43b2d1847e07ab4fe,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c5c1e7a761cbb0d43b2d1847e07ab4fe,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8652628397865731068, guid: c5c1e7a761cbb0d43b2d1847e07ab4fe,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4067376836188492922, guid: c5c1e7a761cbb0d43b2d1847e07ab4fe,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.4597993
+      objectReference: {fileID: 0}
+    - target: {fileID: -3981490523558276829, guid: c5c1e7a761cbb0d43b2d1847e07ab4fe,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3106702408950243734, guid: c5c1e7a761cbb0d43b2d1847e07ab4fe,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.7201924
+      objectReference: {fileID: 0}
+    - target: {fileID: -3089037237068514363, guid: c5c1e7a761cbb0d43b2d1847e07ab4fe,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1116040554500706581, guid: c5c1e7a761cbb0d43b2d1847e07ab4fe,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 256058911137314974, guid: c5c1e7a761cbb0d43b2d1847e07ab4fe,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.899898
+      objectReference: {fileID: 0}
+    - target: {fileID: 423676005722333516, guid: c5c1e7a761cbb0d43b2d1847e07ab4fe,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c5c1e7a761cbb0d43b2d1847e07ab4fe,
+        type: 3}
+      propertyPath: m_Name
+      value: Lamppost
+      objectReference: {fileID: 0}
+    - target: {fileID: 1457829610257836623, guid: c5c1e7a761cbb0d43b2d1847e07ab4fe,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 5487337053549188254, guid: c5c1e7a761cbb0d43b2d1847e07ab4fe,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6632755564384757843, guid: c5c1e7a761cbb0d43b2d1847e07ab4fe,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 7120382139906632611, guid: c5c1e7a761cbb0d43b2d1847e07ab4fe,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.2800937
+      objectReference: {fileID: 0}
+    - target: {fileID: 8628818177175734427, guid: c5c1e7a761cbb0d43b2d1847e07ab4fe,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c5c1e7a761cbb0d43b2d1847e07ab4fe, type: 3}

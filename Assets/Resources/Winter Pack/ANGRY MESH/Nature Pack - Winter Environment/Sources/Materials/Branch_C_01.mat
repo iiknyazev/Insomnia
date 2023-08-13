@@ -1,0 +1,405 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7295926964329947914
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Branch_C_01
+  m_Shader: {fileID: 4800000, guid: c06c91c9416ad0f4e8a67d6103e77fdc, type: 3}
+  m_ValidKeywords:
+  - _ALPHATEST
+  - _COLOR_TINT
+  - _LIGHTING_QUALITY_HIGH
+  - _NORMALMAP
+  - _WIND_OFF
+  m_InvalidKeywords:
+  - _BAKEDMESHDATA_OFF
+  - _INTERACTION_OFF
+  - _LINKMAPTILINGOFFSET_ON
+  - _OVERLAY_OFF
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2450
+  stringTagMap: {}
+  disabledShaderPasses:
+  - DepthOnly
+  - SHADOWCASTER
+  - DistortionVectors
+  - TransparentDepthPrepass
+  - TransparentDepthPostpass
+  - TransparentBackface
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: 53690b19e9835de4994f4f614054f4a5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseAlbedoASmoothness:
+        m_Texture: {fileID: 2800000, guid: 47d0decbc418d7244bafc03c9ab209dc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 53690b19e9835de4994f4f614054f4a5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseNormalMap:
+        m_Texture: {fileID: 2800000, guid: 5ff8520a76b921f43a40232c2cc0efa4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseSurface:
+        m_Texture: {fileID: 2800000, guid: 0b6ae739bb380c24c8372b1f2f97bcb4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: d844feb1c1a21294280c366aa89c0449, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ClearCoatMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 2800000, guid: 53690b19e9835de4994f4f614054f4a5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 2800000, guid: 53690b19e9835de4994f4f614054f4a5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 2800000, guid: d844feb1c1a21294280c366aa89c0449, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ExtraTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 53690b19e9835de4994f4f614054f4a5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: eb5473749b640444293306df10bbd843, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: d844feb1c1a21294280c366aa89c0449, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PackedMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SubsurfaceTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Surface:
+        m_Texture: {fileID: 2800000, guid: 5c020ab7f1c463d45a6639cca6a55748, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TerrainHolesTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: eb5473749b640444293306df10bbd843, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ThicknessMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TopAlbedoASmoothness:
+        m_Texture: {fileID: 2800000, guid: b94a53fe693b5ff41a047d57dc3d96ea, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TopNormalMap:
+        m_Texture: {fileID: 2800000, guid: a6595745300d3bf46be8e5ec06d3443f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - BACKFACE_NORMAL_MODE: 1
+    - EFFECT_BILLBOARD: 0
+    - EFFECT_EXTRA_TEX: 1
+    - _AlphaClip: 0
+    - _AlphaClipThreshold: 0.024
+    - _AlphaCutoff: 0.5
+    - _AlphaTest: 1
+    - _AlphaTestThreshold: 0.509
+    - _Amp: 0.78
+    - _Ampl: 4.21
+    - _BARKKK: 0
+    - _BackFaceSnow: 1
+    - _BakedMeshData: 0
+    - _BaseAOIntensity: 1
+    - _BaseBranchAO: 0
+    - _BaseNormalIntensity: 1
+    - _BaseSmoothness: 0.49
+    - _BaseTreeAO: 0.5
+    - _BillboardKwToggle: 0
+    - _BillboardShadowFade: 0.5
+    - _Blend: 2
+    - _BlendOp: 0
+    - _BlueIntensity: 0
+    - _BlueScale: 0
+    - _BlueSpeed: 0
+    - _BumpScale: 2
+    - _ClearCoat: 0
+    - _ClearCoatMask: 0
+    - _ClearCoatSmoothness: 0
+    - _ColorCorrection: 0
+    - _ColorVariationSpread: 0.2
+    - _Contrastaa: 60
+    - _Cull: 2
+    - _Cutoff: 0.509
+    - _Decals: 1
+    - _DetailAlbedoMapScale: 1
+    - _DetailNormalMapScale: 1
+    - _Distance: 200
+    - _DoubleSidedMode: 2
+    - _DoubleSidedNormalMode: 1
+    - _DstBlend: 1
+    - _EmissionIntensity: 0
+    - _EnableWind: 1
+    - _EnableWorldProjection: 1
+    - _EnvironmentReflections: 1
+    - _Float0: 0
+    - _Float0ttt: 1
+    - _Float1: 1
+    - _Float1a: 2
+    - _Float2: 10.38
+    - _Freq: 169.73
+    - _GGG: 144.09
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossinessSource: 0
+    - _GlossyReflections: 1
+    - _HueVariationKwToggle: 0
+    - _Influence: 0
+    - _Keyword0: 0
+    - _LOD_FADE_CROSSFADE: 1
+    - _Leavesint: 0
+    - _LightingQuality: 0
+    - _LinkMapTilingOffset: 1
+    - _LocalAO: 1
+    - _Metallic: 0
+    - _Mode: 3
+    - _MotionVectors: 1
+    - _NoiseSpeed: 1
+    - _NormalMapKwToggle: 1
+    - _NormalMapScale: 2
+    - _ObjectBounciness: 0
+    - _ObjectHeight: 0.5
+    - _ObjectRadius: 0.5
+    - _ObjectStiffness: 0.5
+    - _OcclusionStrength: 0.5
+    - _OldHueVarBehavior: 0
+    - _Opacity: 0.64
+    - _Overlay: 0
+    - _PETE: 0
+    - _Parallax: 0.02
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _RecalculateWindNormals: 0.5
+    - _ReceiveShadows: 1
+    - _RedIntensity: 0
+    - _RedScale: 0
+    - _RedSpeed: 0
+    - _SampleAlphaOverlay: 1
+    - _SampleColorOverlay: 1
+    - _Shininess: 0
+    - _Smoothness: 0.5
+    - _SmoothnessSource: 0
+    - _SmoothnessTextureChannel: 0
+    - _SpecSource: 0
+    - _SpecularHighlights: 1
+    - _Speed: 1
+    - _SrcBlend: 5
+    - _SubsurfaceIndirect: 0
+    - _SubsurfaceKwToggle: 0
+    - _Surface: 1
+    - _SurfaceMapMethod: 1
+    - _TESTTT: 1
+    - _TTTT: 2
+    - _TTTTIMEEE: 0
+    - _TemporalAntiAliasing: 0
+    - _TestOffset: 0
+    - _TestTime: 1
+    - _TintNoiseContrast: 20
+    - _TintNoiseTile: 10
+    - _TintNoiseTileX: 6
+    - _TintNoiseTileY: 6
+    - _TopContrast: 0.7
+    - _TopInt: 2.58
+    - _TopIntensity: 1
+    - _TopNormalIntensity: 0.84
+    - _TopOffset: 0.8
+    - _TopSmoothness: 0.387
+    - _TopUVScale: 4.4
+    - _Trans: 1
+    - _TransAmbient: 1
+    - _TransDirect: 1
+    - _TransNormalDistortion: 0
+    - _TransScattering: 1
+    - _TransShadow: 1
+    - _Translucency: 1.5
+    - _TranslucencyAmbient: 0.5
+    - _TranslucencyBlendMode: 0
+    - _TranslucencyDistortion: 0.5
+    - _TranslucencyScattering: 2
+    - _TranslucencyShadow: 0.8
+    - _TranslucencyStrength: 1
+    - _Transmission: 1.64
+    - _TransmissionDistance: 300
+    - _TransmissionIntensity: 8.51
+    - _TurbulenceStrength: 1
+    - _TwoSided: 2
+    - _UVSec: 0
+    - _VertexNormalStrength: 1
+    - _WINDQUALITY: 4
+    - _WIntensityBlue: 0
+    - _WIntensityRed: 0
+    - _WScaleBlue: 0
+    - _WScaleRed: 0
+    - _WSpeedRed: 0
+    - _WSppedBlue: 0
+    - _Wind: 0
+    - _WindIntensity: 1
+    - _WindLeafAmplitude: 1
+    - _WindLeafIntensity: 1
+    - _WindLeafScale: 15
+    - _WindLeafSpeed: 2
+    - _WindLeafStiffness: 1
+    - _WindLeavesIntensity: 0.327
+    - _WindLeavesLocalScale: 25.4
+    - _WindLeavesLocalSpeed: 2.5
+    - _WindLeavesScale: 25
+    - _WindLeavesSpeed: 2.5
+    - _WindLeavesStiffness: 0.46
+    - _WindLocalIntensity: 1
+    - _WindLocalScale: 25
+    - _WindLocalSpeed: 1.69
+    - _WindMultiplier: 1
+    - _WindPowerX: 3
+    - _WindPowerZ: 1.59
+    - _WindQuality: 0
+    - _WindStrength: 1
+    - _WindTreeIntensity: 1
+    - _WindTreeStiffness: 1
+    - _WindTrunkAmplitude: 1
+    - _WindTrunkStiffness: 2
+    - _WindVariation: 0
+    - _WorkflowMode: 1
+    - _WorldProjection: 0
+    - _Y: -0.28
+    - _ZWrite: 0
+    - __dirty: 0
+    - __strip__additional_light_shadows: 1
+    - __strip__additional_lights: 0
+    - __strip__debug: 0
+    - __strip__decals: 1
+    - __strip__fog: 0
+    - __strip__light_cookies: 1
+    - __strip__light_layers: 0
+    - __strip__lightmap: 1
+    - __strip__lod_crossfade: 1
+    - __strip__reflection_probe_blending: 1
+    - __strip__reflection_probe_box_projection: 1
+    - __strip__shadow_mask: 1
+    - _a: 1.7
+    - _aaaa: 16.89
+    - _freq: 14.8
+    m_Colors:
+    - _BackFaceColor: {r: 1, g: 1, b: 1, a: 0}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 0}
+    - _Color0: {r: 1, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FloatingOriginOffset_Color: {r: 0, g: 0, b: 0, a: 0}
+    - _GlossRemap: {r: 0, g: 0.5, b: 0, a: 0}
+    - _HSL: {r: 0.02, g: 0.05, b: 0.1, a: 0}
+    - _HSLVariation: {r: -0.02, g: -0.05, b: -0.1, a: 0}
+    - _HueVariation: {r: 1, g: 0.5, b: 0, a: 0.1}
+    - _HueVariationColor: {r: 1, g: 1, b: 1, a: 1}
+    - _OcclusionRemap: {r: 0.5, g: 1, b: 0, a: 0}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _SubsurfaceColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
+    - _Tint: {r: 1, g: 1, b: 1, a: 0}
+    - _TintColor1: {r: 1, g: 1, b: 1, a: 0}
+    - _TintColor2: {r: 0.8014706, g: 0.8014706, b: 0.8014706, a: 0}
+    - _TintVariation: {r: 1, g: 1, b: 1, a: 0}
+    - _TopColor: {r: 1, g: 1, b: 1, a: 0}
+    - _TranslucencyColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TrunkBendFactor: {r: 1, g: 0, b: 0, a: 0}
+    - _Vector0: {r: 1, g: 1, b: 1, a: 0}
+    - _WindFade: {r: 50, g: 20, b: 0, a: 0}
+  m_BuildTextureStacks: []
